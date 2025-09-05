@@ -4,9 +4,9 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'My Express API',
+      title: 'Food Order and Delivery API',
       version: '1.0.0',
-      description: 'A simple Express API documented with Swagger',
+      description: 'REST API for user auth, menu management, and order processing for a food order and delivery platform.',
     }
   },
   apis: ['./src/routes/*.js'], // Path to the API docs
